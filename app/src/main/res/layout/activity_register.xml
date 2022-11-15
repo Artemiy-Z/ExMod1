@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background1"
+        android:scaleType="centerCrop"
+        app:tint="#CCaF9F00"
+        android:tintMode="multiply"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="64dp"
+        app:layout_constraintTop_toTopOf="parent">
+        
+        <ImageView
+            android:layout_width="125.98dp"
+            android:layout_height="137.35dp"
+            android:src="@drawable/logo"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Smart House"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="16dp"
+            android:layout_marginVertical="20dp"
+            android:paddingHorizontal="36dp"
+            android:background="@drawable/box1"
+            android:backgroundTint="#55FFFFaa"
+            android:orientation="vertical">
+
+            <EditText android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:hint="E-mail"
+                android:backgroundTint="@color/white"
+                android:textStyle="bold"/>
+
+            <EditText android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:hint="Name"
+                android:backgroundTint="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <EditText android:id="@+id/pasw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:hint="Password"
+                android:backgroundTint="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/newres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textAllCaps="false"
+            android:background="@drawable/box1"
+            android:backgroundTint="#5E55A0"
+            android:text="New Resident"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textAllCaps="false"
+            android:background="@drawable/box1"
+            android:backgroundTint="#2A2A37"
+            android:text="Enter Your House"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
