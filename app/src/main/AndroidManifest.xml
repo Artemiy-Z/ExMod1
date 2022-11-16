@@ -13,13 +13,19 @@
         android:theme="@style/Theme.ExMod1"
         tools:targetApi="31">
         <activity
+            android:name=".LaunchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddRoomActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.Module1.NewResident.RegisterActivity"
+            android:name=".NewResident.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.Module1.EnterYourHouse.EnterActivity"
+            android:name=".EnterYourHouse.EnterActivity"
             android:exported="false" />
     </application>
 
