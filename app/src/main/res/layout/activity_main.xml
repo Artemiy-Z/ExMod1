@@ -58,7 +58,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <ImageButton
+        <ImageButton android:id="@+id/plus"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:src="@drawable/plus"
@@ -74,7 +74,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="120dp">
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="50dp">
 
         <TableLayout android:id="@+id/table"
             android:layout_width="match_parent"
@@ -84,5 +85,106 @@
         </TableLayout>
 
     </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:weightSum="4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <ImageButton android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/home"
+            app:tint="#909090"
+            android:scaleType="centerInside"
+            android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:gravity="center"
+                android:text="Home"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <ImageButton android:id="@+id/statics"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/statics"
+            app:tint="#909090"
+            android:scaleType="centerInside"
+            android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:gravity="center"
+                android:text="Statics"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <ImageButton android:id="@+id/routine"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/routine"
+            app:tint="#909090"
+            android:scaleType="centerInside"
+            android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:gravity="center"
+                android:text="Routine"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <ImageButton android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/setting"
+            app:tint="@color/purple_1"
+            android:scaleType="centerInside"
+            android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:gravity="center"
+                android:text="Setting"
+                android:textColor="@color/purple_1"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
