@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Smart House</string>
+    <string name="competitor">Competitor-1</string>
+    <string name="baseUrl">https://app.swaggerhub.com/apis-docs/k5422/smart/eqfwgrhtjyfkuydwqewrtehsjyrdkutlfog#/</string>
 </resources>

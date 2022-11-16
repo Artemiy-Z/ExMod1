@@ -7,13 +7,16 @@
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/drawable/circle1.xml" value="0.185" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/drawable/circle2.xml" value="0.185" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/drawable/divider.xml" value="0.185" />
+        <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/drawable/purple_state.xml" value="0.185" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/drawable/seekbar_style.xml" value="0.185" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/drawable/thumb.xml" value="0.185" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/drawable/thumb_xml.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/drawable/white_state.xml" value="0.185" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/activity_add_room.xml" value="0.165" />
+        <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/activity_device2.xml" value="0.16228467815049863" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/activity_devices.xml" value="0.16228467815049863" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/activity_launch.xml" value="0.1468721668177697" />
-        <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/activity_main.xml" value="0.125" />
+        <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/activity_register.xml" value="0.16228467815049863" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/activity_setting.xml" value="0.16228467815049863" />
         <entry key="..\:/AndroidStudio_PROJECTS/ExMod1/app/src/main/res/layout/device_item.xml" value="0.335" />

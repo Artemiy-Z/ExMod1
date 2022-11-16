@@ -96,14 +96,14 @@
                 android:divider="@drawable/divider"
                 android:showDividers="middle"
                 android:layout_weight="1">
-                <ImageButton
+                <ImageButton android:id="@+id/kitchen"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/kitchen"
                     android:backgroundTint="@color/purple_1"
                     android:scaleType="fitXY"
                     android:padding="32dp"/>
-                <ImageButton
+                <ImageButton android:id="@+id/bedroom"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/bedroom"
@@ -111,7 +111,7 @@
                     android:backgroundTint="#f0f0f0"
                     android:scaleType="fitXY"
                     android:padding="32dp"/>
-                <ImageButton
+                <ImageButton android:id="@+id/bathroom"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/bathroom"
@@ -125,7 +125,7 @@
                 android:divider="@drawable/divider"
                 android:showDividers="middle"
                 android:layout_weight="1">
-                <ImageButton
+                <ImageButton android:id="@+id/office"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/office"
@@ -133,7 +133,7 @@
                     android:backgroundTint="#f0f0f0"
                     android:scaleType="fitXY"
                     android:padding="32dp"/>
-                <ImageButton
+                <ImageButton android:id="@+id/tvroom"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/tvroom"
@@ -141,7 +141,7 @@
                     android:backgroundTint="#f0f0f0"
                     android:scaleType="fitXY"
                     android:padding="32dp"/>
-                <ImageButton
+                <ImageButton android:id="@+id/livingroom"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/livingroom"
@@ -155,7 +155,7 @@
                 android:divider="@drawable/divider"
                 android:showDividers="middle"
                 android:layout_weight="1">
-                <ImageButton
+                <ImageButton android:id="@+id/garage"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/garage"
@@ -163,7 +163,7 @@
                     android:backgroundTint="#f0f0f0"
                     android:scaleType="fitXY"
                     android:padding="32dp"/>
-                <ImageButton
+                <ImageButton android:id="@+id/toilet"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/toilet"
@@ -171,7 +171,7 @@
                     android:backgroundTint="#f0f0f0"
                     android:scaleType="fitXY"
                     android:padding="32dp"/>
-                <ImageButton
+                <ImageButton android:id="@+id/kidroom"
                     android:layout_weight="1"
                     android:background="@drawable/circle1"
                     android:src="@drawable/kidroom"
